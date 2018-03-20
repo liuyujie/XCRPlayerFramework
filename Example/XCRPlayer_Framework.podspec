@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'XCRPlayer_Framework'
   s.version          = '0.0.1'
   s.summary          = 'A video player for iOS, based on AVPlayer Framework'
-
+  s.swift_version    = '3.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -30,7 +30,7 @@ TODO: A video player for iOS, based on AVPlayer, support the horizontal, vertica
 
   s.ios.deployment_target = '8.0'
 
-  s.ios.vendored_frameworks = 'Example/Carthage/Build/iOS/XCRPlayer.framework'
+  s.ios.vendored_frameworks = 'Carthage/Build/iOS/XCRPlayer.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
