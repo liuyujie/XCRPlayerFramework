@@ -32,7 +32,7 @@ TODO: A video player for iOS, based on AVPlayer, support the horizontal, vertica
 
   s.ios.deployment_target = '8.0'
 
-  s.ios.vendored_frameworks = 'Carthage/Build/iOS/XCRPlayer.framework'
+  s.ios.vendored_frameworks = 'Example/Carthage/Build/iOS/XCRPlayer.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
