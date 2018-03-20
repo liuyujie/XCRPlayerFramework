@@ -36,8 +36,8 @@ TODO: A video player for iOS, based on AVPlayer, support the horizontal, vertica
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'SnapKit', '3.2.0'
-  s.dependency 'Kingfisher', '3.12.2'
+  s.dependency 'SnapKit'
+  s.dependency 'Kingfisher'
   s.dependency 'Alamofire'
 
 end
