@@ -1,0 +1,11 @@
+framework module XCRPlayer {
+  umbrella header "XCRPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module XCRPlayer.Swift {
+    header "XCRPlayer-Swift.h"
+    requires objc
+}
