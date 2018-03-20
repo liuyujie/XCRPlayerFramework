@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCRPlayer_Framework'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A video player for iOS, based on AVPlayer Framework'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
