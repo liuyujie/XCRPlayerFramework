@@ -2,5 +2,6 @@
 
 XCRPlayerFramework
 
+add feach Test
 
 For Test
